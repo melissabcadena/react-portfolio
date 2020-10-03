@@ -1,13 +1,16 @@
 import React from 'react';
-import Nav from '../Nav'
 
-function Header () {
+function Header (props) {
+
+    
     return (
-        <div>
-            <Nav />
-            <div class="hero-image">
+        <header>
+            <h2>Melissa Cadena Portfolio</h2>
+
+            <div className="hero-image">
+                {props.children}
             </div>
-        </div>
+        </header>
     )
 }
 
