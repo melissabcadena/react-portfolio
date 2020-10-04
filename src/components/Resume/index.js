@@ -1,10 +1,10 @@
 import React from 'react';
-import Resume from '../../images/Resume';
+import MyResume from '../../images/myResume.pdf';
 
 function Resume () {
     return (
     <div>
-        <button href={Resume}>Click for Resume</button>
+        <a href={MyResume}>Click for Resume</a>
         <h2>Skills</h2>
         <table>
             <tbody>
@@ -38,3 +38,5 @@ function Resume () {
     
     )
 }
+
+export default Resume;

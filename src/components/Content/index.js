@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../Contact'
 
 function Content() {
     // const [currentPage, handlePageChange] = useState('About Me')
@@ -17,7 +18,7 @@ function Content() {
 
     return (
         <div>
-            Content
+            <Contact />
         </div>
     )
 }
