@@ -7,10 +7,11 @@ function Nav(props) {
         setCurrentCategory,
         currentCategory,
       } = props;
-      console.log(props);
+
       useEffect(()=>{
           document.title = ('MC - ' + currentCategory.name)
       }, [currentCategory])
+      
     return (
         <nav>
             <ul className="flex-row">

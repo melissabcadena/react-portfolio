@@ -1,24 +1,28 @@
 import React from 'react';
-import Contact from '../Contact'
+import Contact from '../Contact';
+import About from '../AboutMe';
+import Portfolio from '../Portfolio';
+import Resume from '../Resume';
 
-function Content() {
-    // const [currentPage, handlePageChange] = useState('About Me')
+function Content({ currentCategory }) {
+    console.log(currentCategory);
+    const renderPage = () => {
 
-    // const renderPage = () => {
-    //     case 'Portfolio':
-    //         return <About />;
-    //     case 'Contact Me':
-    //         return <Contact />;
-    //     case 'Resume':
-    //         return <Resume />;
-    //     default:
-    //         return <About />;
-    //     }
-    // }
+        switch(currentCategory.name) {
+        case 'Portfolio':
+            return <Portfolio />;
+        case 'Contact Me':
+            return <Contact />;
+        case 'Resume':
+            return <Resume />;
+        default:
+            return <About />;
+        }
+    }
 
     return (
         <div>
-            <Contact />
+            {renderPage(currentCategory)}
         </div>
     )
 }

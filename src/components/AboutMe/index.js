@@ -1,7 +1,7 @@
 import React from 'react';
 import Melissa from "../../images/melissa-cadena.jpg" 
 
-function AboutMe () {
+function About () {
     return(
         <section>
             <div>
@@ -22,4 +22,4 @@ function AboutMe () {
     )
 }
 
-export default AboutMe;
+export default About;
