@@ -6,11 +6,12 @@ function About () {
         <section>
             <div>
                 <img
+                className="profile-photo"
                 src={Melissa}
                 alt="Melissa and her husband">
                 </img>
             </div>
-            <div>
+            <div className="about-me">
                 <h1>About Me</h1>
                 <p>
                     Software Engineer with a background in case quality assurance and problem solving looking to implement skills gained from previous roles to develop clean, concise applications. Recently earned a certificate in full stack development from the University of Texas at Austin, which has equipped me with skills in JavaScript, CSS, React.js, Node.js, jQuery, APIs, CSS frameworks including Bootstrap and Materialize, and responsive, mobile first web design.

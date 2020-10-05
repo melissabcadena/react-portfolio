@@ -5,10 +5,9 @@ import WWW from '../../images/world-wide-web.png'
 
 function Project ({ project, i }) {
     return (
-        <div className="project">
-            <div className="flex-row">
-                <h3>Project Name:<span>{project.name}</span></h3>
-                <h4>Description:</h4>
+        <div className="project flex-container">
+            <div className="project-info flex-row">
+                <h3>Project Name: <span>{project.name}</span></h3>
                 <p>{project.description}</p>
                 <a href={project.githubLink}>
                     <img 
@@ -19,14 +18,15 @@ function Project ({ project, i }) {
                 <a href={project.deployedLink}>
                     <img 
                         src={WWW}
+                        className="logo"
                         alt="WWW Logo Link"
                         ></img>
                 </a>
             </div>
-            <div className="flex-row">
+            <div>
                 <img 
-            src={require(`../../images/item-${i + 1}.png`)}
-            alt="project screenshot"
+                    src={require(`../../images/item-${i + 1}.png`)}
+                    alt="project screenshot"
                 ></img>
             </div>
         </div>
