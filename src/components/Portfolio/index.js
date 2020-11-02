@@ -27,7 +27,7 @@ function Portfolio () {
         {
             name: "<br> for Java",
             description: "This application uses the MERN stack to create an application for a local coffee shop. Users can place their orders for pick-up via this app. The menu shows all of the drinks, allows users to add their customized items to the cart, and to check out. This app can be downloaded as a PWA and has offline functionality.",
-            githubLink: "https://github.com/melissabcadena/project-3",
+            githubLink: "https://github.com/melissabcadena/project-three",
             deployedLink: "https://br-for-java.herokuapp.com/"        },
         {
             name: "E-Commerce Back End",
