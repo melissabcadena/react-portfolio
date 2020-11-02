@@ -3,7 +3,12 @@ import Header from './components/Header'
 import Nav from './components/Nav'
 import Content from './components/Content';
 import Footer from './components/Footer';
+import Background from './images/hero.jpg'
 import './App.css';
+
+const style = {
+  backgroundImage: `url(${ Background })`
+};
 
 function App() {
 
@@ -25,7 +30,7 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    <div>
+    <div style= { style }>
       <Header>
           <Nav 
           categories={categories}

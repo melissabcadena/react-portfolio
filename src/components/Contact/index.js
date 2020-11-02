@@ -14,6 +14,7 @@ function Contact () {
     return (
         <section>
           <h1>Contact me</h1>
+          <p>Name, email, and message are required fields!</p>
           <form id="contact-form" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name">Name:</label>

@@ -25,10 +25,10 @@ function Portfolio () {
             githubLink: "https://github.com/melissabcadena/technical-coding-quiz.git",
             deployedLink: "https://melissabcadena.github.io/technical-coding-quiz"        },
         {
-            name: "Read Me Generator",
-            description: "This application allows users to quickly and easily generate a professional ReadMe.md file via the command line using Node.js. The user will be prompted with several questions for information required to create the file. Once created, the ReadMe.md file will put output into the dist file of the application's directory.",
-            githubLink: "https://github.com/melissabcadena/readme-generator",
-            deployedLink: "No deployed link"        },
+            name: "<br> for Java",
+            description: "This application uses the MERN stack to create an application for a local coffee shop. Users can place their orders for pick-up via this app. The menu shows all of the drinks, allows users to add their customized items to the cart, and to check out. This app can be downloaded as a PWA and has offline functionality.",
+            githubLink: "https://github.com/melissabcadena/project-3",
+            deployedLink: "https://br-for-java.herokuapp.com/"        },
         {
             name: "E-Commerce Back End",
             description: "This is the back end application for an e-commerce site. Using Sequelize, the models for the Category, Product, ProductTag, and Tag endpoints have been added. The CRUD routes for the Category, Product and Tag models has also been added to the code.",
